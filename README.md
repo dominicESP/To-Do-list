@@ -17,11 +17,12 @@ Whenever a task is added or removed, the data, priority, and task files are auto
 ==================
 
 How to run it in Visual Studio 2022/2026:
-Download the source files.
-Create a new C++ project in Visual Studio.
-Right-click on the "Source Files" folder in the Solution Explorer.
-Select Add > Existing Item...
-Select the downloaded files to import them into your project.
+
+1. Download the source files.
+2. Create a new C++ project in Visual Studio.
+3. Right-click on the "Source Files" folder in the Solution Explorer.
+4. Select Add > Existing Item...
+5. Select the downloaded files to import them into your project.
 
 
 ==================
