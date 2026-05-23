@@ -1,33 +1,49 @@
-To-Do List Project
+# To-Do List Project
 
 This is the largest project I have built as a junior C++ learner.
 
-==================
+---
 
-How it works
+## Overview
 
-The application includes functions to add, remove, and display both pending and completed tasks.
+This application is a simple task manager that allows users to add, remove, and track both pending and completed tasks.
 
-current_time: Captures the timestamp when a task is created.
-taskPriority: Processes the priority level assigned by the user.
+Each task includes:
+- Timestamp of creation (`current_time`)
+- Priority level (`taskPriority`)
 
-Storage: All tasks are saved in .txt files. Upon startup, the program loads these files and populates the vectors in the original order.
-Whenever a task is added or removed, the data, priority, and task files are automatically updated.
+---
 
-==================
+## Features
 
-How to run it in Visual Studio 2022/2026:
+- Add and remove tasks
+- Display pending and completed tasks
+- Persistent storage using `.txt` files
+- Automatic loading of saved data on startup
+- Automatic updates when tasks are modified
 
-1. Download the source files.
-2. Create a new C++ project in Visual Studio.
-3. Right-click on the "Source Files" folder in the Solution Explorer.
-4. Select Add > Existing Item...
-5. Select the downloaded files to import them into your project.
+---
 
+## Data storage
 
-==================
+All tasks are stored in text files.
+On startup, the program reads the files and reconstructs the task list in the original order.
 
-Future improvements:
+---
 
-1. Transition from a console-based app to a visual desktop application.
-2. Implement task categories (e.g. Work, Study) to improve organization
+## How to run (Visual Studio 2022/2026)
+
+1. Download the source files
+2. Create a new C++ project in Visual Studio
+3. Right-click on **Source Files** in Solution Explorer
+4. Select **Add > Existing Item...**  
+5. Import the downloaded files
+6. Build and run the project
+
+---
+
+## Future improvements
+
+- Transition from console-based to graphical desktop application (currently in progress)
+- Add task categories (e.g. Work, Study, Personal)
+- Improve UI and user experience
